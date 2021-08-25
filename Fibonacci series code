@@ -1,0 +1,23 @@
+import java.util.*;
+class Fibonacci
+{  
+public static void main()  
+{  
+Scanner sc =new Scanner(System.In);  
+ int n=sc.nextInt();
+ int n1=0,n2=1,n3,i,  
+ System.out.print(n1+" "+n2);//printing 0 and 1  
+ System.out.println("enter the no of terms for finding series");
+  int n=sc
+    
+ for(i=2;i<=n;++i) // starting from 2 because 0 and 1 are already printed in above statement  
+ {    
+  n3=n1+n2;    
+  System.out.print(" "+n3);    
+  n1=n2;    
+  n2=n3;    
+ }    
+  
+}
+}
+  
